@@ -1,0 +1,25 @@
+:root{
+  --bg: #ffffff;
+  --fg: #000000;
+}
+html,body,#__next{height:100%}
+body{
+  margin:0;
+  font-family:Inter, Arial, sans-serif;
+  background:var(--bg);
+  color:var(--fg);
+}
+.header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:20px 30px;
+  border-bottom:2px solid #000;
+}
+.logo{height:56px}
+.nav a{margin-left:16px;color:var(--fg);text-decoration:none;font-weight:700}
+.hero{padding:80px 30px;text-align:center;border-bottom:2px solid #000}
+.products{padding:40px 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.card{border:2px solid #000;padding:16px;text-align:center}
+.footer{padding:30px;text-align:center;border-top:2px solid #000}
